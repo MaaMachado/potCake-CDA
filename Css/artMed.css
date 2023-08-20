@@ -17,6 +17,7 @@
 }
 .animate-fading{
   animation:fading 10s infinite;
+  
 }
 @keyframes fading{
   0%{
