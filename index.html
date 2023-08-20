@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="Css/img/potcakeFavicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="Css/art.css">
+  <script src="Controller/script.js"></script>
+  <title>Cozinha D'Adélia - Bolo de pote</title>
+</head>
+<body>
+
+  <!-- Menu - FIXO - no topo da pg -->
+  <nav id="top">
+    <div class="row padding black">
+      <div class="col s3">
+        <a href="#" class="button block black">HOME</a>
+      </div>
+      <div class="col s3">
+        <a href="#about" class="button block black">SOBRE</a>
+      </div>
+      <div class="col s3">
+        <a href="#produt" class="button block black">PRODUTOS</a>
+      </div>
+      <div class="col s3">
+        <a href="#menu" class="button block black">MENU</a>
+      </div>
+      <div class="col s3">
+        <a href="#contat" class="button block black">CONTATO</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carrosel de imagens? -->
+  <header class="bgimg display-container grayscale-min" id="home">
+
+    <div class="display-bottomleft center padding-large hide-small">
+      <span class="tag" onclick="linkInsta()">@cozinhadadelia</span>
+    </div>
+    <div class="display-middle center">
+      <span class="text-white" style="font-size:90px">Bolos<br>de Pote</span>
+    </div>
+    <div class="display-bottomright center padding-large">
+      <span class="text-white">Sob Ecomenda</span>
+    </div>
+
+  </header>  
+  
+  <!-- Backgroud para o resto da pg -->
+  <div class="sand grayscale large">
+
+  <!-- Espaço SOBRE -->
+  <section class="container" id="about">
+    <div class="content" style="max-width:700px">
+      <h4 class="center padding-64"><span class="tag wide">SOBRE O POT CAKE</span></h4>
+      <h6>Cozinha D'Adélia</h6>
+      <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+      <div class="panel leftbar light-grey">
+        <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
+        <p>Cozinheira, Confeiteira e Dona: Adélia Machado</p>
+      </div>
+      <img src="Css/img/amostragemDoces.jpg" style="width:100%;max-width:1000px" class="margin-top">
+      <p><strong>Horário de Funcionamento/Contato:</strong> Todos os dias, das 8h às 17h.</p>
+      <p>Sob <strong>Encomenda</strong></p>
+    </div>
+  </section>
+
+  <!-- Espaço MENU/Cardápio -->
+<section class="container" id="menu">
+  <div class="content" style="max-width:700px">
+ 
+    <h4 class="center padding-48"><span class="tag wide">MENU</span></h4>
+    <h6>Tipos, Sabores e Preços</h6>
+  
+    <div class="row center card padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'classic');" id="myLink">
+        <div class="col s6 tablink">Clássico</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'premium');">
+        <div class="col s6 tablink">Premium</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'estiloso');">
+        <div class="col s6 tablink">Estiloso</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'tematico');">
+        <div class="col s6 tablink">Temático</div>
+      </a>
+    </div>
+
+    <!-- Aqui contém as informações da aba CLÁSSICO -->
+    <div id="classic" class="container menu padding-48 card">
+      <h5>Brigadeiro tradicional</h5>
+      <p class="text-grey">Bolo de chocolate recheado com o brigadeiro tradicional R$10.00</p><br>
+    
+      <h5>Dois amores</h5>
+      <p class="text-grey">Duas camadas de bolo (baunilha e chocolate) com dois recheios (brigadeiro tradicional e branco) R$10.00</p><br>
+    
+      <h5>Beijinho</h5>
+      <p class="text-grey">Bolo de baunilha com recheio de beijinho (coco) R$10.00</p><br>
+    
+      <h5>Prestígio</h5>
+      <p class="text-grey">Duas camadas de bolo (baunilha e chocolate) com recheio de prestígio (coco e chocolate) R$10.00</p><br>
+    
+      <h5>Doce de leite</h5>
+      <p class="text-grey">Bolo de ovos com recheio de doce de leite R$10.00</p>
+    </div>
+
+    <!-- Aqui contém as informações da aba PREMIUM -->
+    <div id="premium" class="container menu padding-48 card">
+      <h5>M&M</h5>
+      <p class="text-grey">Podendo escolher entre bolo de ovos, baunilha ou chocolate com o recheio M&M R$12.00</p><br>
+    
+      <h5>Geleia de morango</h5>
+      <p class="text-grey">Podendo escolher entre bolo de ovos, baunilha ou chocolate com o recheio de morango R$12.00</p><br>
+    
+      <h5>Geleia de amora</h5>
+      <p class="text-grey">Podendo escolher entre bolo de ovos, baunilha ou chocolate com o recheio de amora R$12.00</p><br>
+    
+      <h5>Geleia Maracujá </h5>
+      <p class="text-grey">Podendo escolher entre bolo de ovos, baunilha ou chocolate com o recheio de maracujá R$12.00</p><br>
+    
+      <h5>Geleia Laranja</h5>
+      <p class="text-grey">Podendo escolher entre bolo de ovos, baunilha ou chocolate com o recheio de laranja R$12.00</p>
+    </div>
+
+    <!-- Aqui contém as informações da aba ESTILOSO -->
+    <div id="estiloso" class="container menu padding-48 card">
+      <h5>M&M</h5>
+      <p class="text-grey">Podendo escolher entre bolo de ovos, baunilha ou chocolate com o recheio M&M R$12.00</p><br>
+    
+      <h5>Geleia de morango</h5>
+      <p class="text-grey">Podendo escolher entre bolo de ovos, baunilha ou chocolate com o recheio de morango R$12.00</p><br>
+    
+      <h5>Geleia de amora</h5>
+      <p class="text-grey">Podendo escolher entre bolo de ovos, baunilha ou chocolate com o recheio de amora R$12.00</p><br>
+    
+      <h5>Geleia Maracujá </h5>
+      <p class="text-grey">Podendo escolher entre bolo de ovos, baunilha ou chocolate com o recheio de maracujá R$12.00</p><br>
+    
+      <h5>Geleia Laranja</h5>
+      <p class="text-grey">Podendo escolher entre bolo de ovos, baunilha ou chocolate com o recheio de laranja R$12.00</p>
+    </div> 
+
+    <!-- Aqui contém as informações da aba TEMÁTICO -->
+    <div id="tematico" class="container menu padding-48 card">
+
+      <h5>Barbie</h5>
+      <p class="text-grey">Bolo formigueiro (baunilha com confeitos rosas) com recheio de brigadeiro rosa R$10.00</p><br>
+
+    </div> 
+    <img src="Css/img/amostraBolos.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</section>
+
+  
+  
+</body>
+</html>
