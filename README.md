@@ -18,24 +18,23 @@ que transformam este sistema em uma ferramenta essencial para promover as visõe
 
 ## ✨ Visão Geral:
 
-
-
 O site "Bolo de Potes || Cozinha D'Adélia" foi criado para apresentar, de maneira organizada e elegante, o trabalho da cozinheira em questão e divulgar a venda de bolos de pote, além de promover suas redes sociais.
 Este site é uma aplicação simples, contendo páginas de home, sobre, menu e contato. A seção 'Sobre' aborda detalhes sobre a marca e seus
 bolos de pote. A página 'Menu' apresenta os sabores disponíveis e os preços dos bolos de pote. Na página 'Contato', os clientes podem 
-iniciar um diálogo para fazer encomendas. Além disso, há uma seção destinada a divulgar as redes sociais (whatsapp, instagram e youtube) da marca.
+iniciar um diálogo para fazer encomendas. Além disso, há uma seção destinada a divulgar as redes sociais (whatsapp, instagram e youtube) da marca..
+
 ---
 
 ## 💻Tecnologias utilizadas:
 
 
 
-![Alt text](assets/images/icons8-javascript-48.png)<span style="color: FFFF00">**JavaScript**</span>:
+**JavaScript**</span>:
  Linguagem de programação utilizada com o propósito de adicionar ao menu e formulário.
 
-![Alt text](assets/images/icons8-css3-48.png) <span style="color:#00FFFF">**Cascading Style Sheet 3 (CSS)**</span>:  Utilizada para estilizar os elementos da linguagem de marcação de texto HTML.
+**Cascading Style Sheet 3 (CSS)**</span>:  Utilizada para estilizar os elementos da linguagem de marcação de texto HTML.
 
-![Alt text](assets/images/icons8-html-48.png)<span style="color:#FFA500">**HTML 5**</span>: Linguagem de marcação utilizada para construção de páginas
+**HTML 5**</span>: Linguagem de marcação utilizada para construção de páginas
 
 e elementos do projeto.
 
@@ -45,6 +44,6 @@ e elementos do projeto.
 
 
 
-### [!👩‍🍳](https://www.instagram.com/cozinhadadelia/) Cozinha D'Adélia
+### [👩‍🍳](https://www.instagram.com/cozinhadadelia/) Cozinha D'Adélia
 
 ---
