@@ -18,3 +18,14 @@ function openMenu(evt, menuName) {
   evt.currentTarget.firstElementChild.className += " dark-grey";
 }
 document.getElementById("myLink").click();
+
+//Mensagem de Confirmação do Contato
+function showConfirmation() {
+  var confirmationMessage = document.getElementById("confirmationMessage");
+  confirmationMessage.style.display = "block";
+
+  document.getElementById("contactForm").reset();
+  setTimeout(function() {
+      confirmationMessage.style.display = "none";
+  }, 30000);
+}
