@@ -21,7 +21,7 @@ que transformam este sistema em uma ferramenta essencial para promover as visõe
 O site "Bolo de Potes || Cozinha D'Adélia" foi criado para apresentar, de maneira organizada e elegante, o trabalho da cozinheira em questão e divulgar a venda de bolos de pote, além de promover suas redes sociais.
 Este site é uma aplicação simples, contendo páginas de home, sobre, menu e contato. A seção 'Sobre' aborda detalhes sobre a marca e seus
 bolos de pote. A página 'Menu' apresenta os sabores disponíveis e os preços dos bolos de pote. Na página 'Contato', os clientes podem 
-iniciar um diálogo para fazer encomendas. Além disso, há uma seção destinada a divulgar as redes sociais (whatsapp, instagram e youtube) da marca..
+iniciar um diálogo para fazer encomendas. Além disso, há uma seção destinada a divulgar as redes sociais (whatsapp, instagram e youtube) da marca.
 
 ---
 
